@@ -1,0 +1,165 @@
+@import "../node_modules/bootstrap//dist/css/bootstrap.min.css";
+
+.modal {
+    transition: opacity 0.3s ease-in-out;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 90vh;
+    padding-bottom: 80px;
+}
+
+.card2 {
+    max-width: 26rem;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.login {
+    max-width: 20rem;
+    margin: 150px auto;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #160404;
+    transition: border-color 0.25s;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    margin-top: 3px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-transition: border-color 0.25s;
+    -moz-transition: border-color 0.25s;
+    -ms-transition: border-color 0.25s;
+    -o-transition: border-color 0.25s;
+}
+.nav-button {
+    border-color: #735bc6;
+    color: #5a3030;
+}
+
+button:hover,
+.nav-button:hover {
+    border-color: #160553;
+
+    font-weight: bold;
+    text-shadow: 1px 1px 30px white;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.logout:hover {
+    padding: 6px;
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.nav-link:hover,
+.log-rig:hover {
+    color: #e27373 !important;
+    font-weight: bold !important;
+}
+
+img {
+    overflow: hidden;
+    object-fit: cover;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.footer {
+    min-height: 40px;
+    max-height: 40px;
+    width: 100%;
+    z-index: 100;
+
+    & .footer-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    & div {
+        font-size: 1.5rem;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        width: 90%;
+        margin: 0 auto;
+
+        & button {
+            position: relative;
+            bottom: 17px;
+        }
+    }
+}
+
+.card-details-image {
+    overflow: hidden;
+    object-fit: cover;
+    max-width: 26rem;
+    border-radius: 25%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    box-shadow: 0px 0px 2px 0px rgb(57, 142, 163), 0px 6px 30px 1px rgb(0, 0, 0);
+    margin: auto;
+}
+
+.next-back-home:hover {
+    color: #d65d5d;
+}
+
+.custom-border {
+    border: 1px solid #d2f6fc;
+    box-shadow: 0 0 6px inset;
+}
